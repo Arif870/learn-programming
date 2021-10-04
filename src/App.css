@@ -3,3 +3,7 @@
   padding: 0px;
   outline: 0px;
 }
+.App {
+  position: relative;
+  height: 100vh;
+}

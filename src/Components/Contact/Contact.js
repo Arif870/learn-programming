@@ -19,7 +19,7 @@ export default function Contact() {
           >
             <Form.Control
               as="textarea"
-              rows={3}
+              rows={5}
               placeholder="Give us your valuable feedback"
             />
           </Form.Group>
