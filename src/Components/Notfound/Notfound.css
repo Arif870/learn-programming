@@ -1,0 +1,9 @@
+.button {
+  background-color: rgb(145, 7, 7);
+  border: none;
+  display: block;
+  margin: auto;
+}
+a {
+  text-decoration: none;
+}

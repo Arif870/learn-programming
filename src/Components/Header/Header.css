@@ -1,0 +1,20 @@
+.nav a {
+  text-decoration: none;
+  padding: 10px 20px;
+  color: rgb(4, 19, 48);
+  border-bottom: 2px solid transparent;
+}
+.nav a:hover,
+a:focus {
+  border-bottom: 2px solid rgb(145, 7, 7);
+  color: rgb(145, 7, 7);
+  font-weight: 400;
+}
+.navbar-brand a {
+  color: rgb(145, 7, 7);
+  text-decoration: none;
+  font-weight: bold;
+}
+.navbar-brand a:focus {
+  border-bottom: none;
+}
