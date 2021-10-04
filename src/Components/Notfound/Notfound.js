@@ -8,9 +8,6 @@ export default function Notfound() {
   return (
     <div>
       <Image className="d-block mx-auto" src={img} fluid />
-      <Link to="/">
-        <Button className="button shadow-sm"> Go Back to Home page</Button>
-      </Link>
     </div>
   );
 }

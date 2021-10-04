@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Row, Col, Card, Button } from "react-bootstrap";
+import { Row, Col, Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import img from "../../Utilities/Images/home.png";
 import "./Home.css";
@@ -37,11 +37,7 @@ export default function Home() {
                 <Card.Body>
                   <Card.Title>{course.name}</Card.Title>
                   <hr />
-                  <Card.Text>
-                    This is a longer card with supporting text below as a
-                    natural lead-in to additional content. This content is a
-                    little bit longer.
-                  </Card.Text>
+                  <Card.Text>{course.about}</Card.Text>
                 </Card.Body>
               </Card>
             </Col>
