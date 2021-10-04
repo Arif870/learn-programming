@@ -1,0 +1,27 @@
+.home p {
+  background-color: transparent;
+  color: rgb(58, 58, 58);
+  text-align: start;
+  margin: 0px;
+  padding: 0px;
+}
+.home-left {
+  border-left: 4px solid rgb(145, 7, 7);
+}
+.services {
+  padding-bottom: 100px;
+}
+.button {
+  background-color: transparent !important;
+}
+.button a {
+  color: white;
+}
+.button a {
+  background-color: rgb(24, 89, 110);
+  padding: 10px 20px;
+  display: inline-block;
+  margin-top: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}

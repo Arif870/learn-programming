@@ -20,7 +20,7 @@ export default function About() {
         work with them, manage them, or live with one.
       </p>
 
-      <h1 className="faq fw-light bg-dark text-light p-3 rounded my-5">
+      <h1 className="faq fw-light bg-dark text-light p-3 rounded my-5 w-50 mx-auto fs-3">
         Frequently asked question about us !
       </h1>
       <Accordion
